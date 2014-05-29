@@ -1,0 +1,26 @@
+{
+  "name": "copter_control",
+  "version": "0.1.0",
+  "description": "NodeCopter voice command interface",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "~0.6.1",
+    "koa-router": "~3.1.4",
+    "socket.io": "~1.0.2",
+    "koa-static": "~1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EricMCornelius/copter_control"
+  },
+  "author": "Eric Cornelius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricMCornelius/copter_control/issues"
+  },
+  "homepage": "https://github.com/EricMCornelius/copter_control"
+}
