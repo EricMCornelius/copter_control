@@ -4,3 +4,7 @@ socket.on('connect', function() {
   socket.on('event', function(data) { console.log(event); });
   socket.on('disconnect', function() { });
 });
+
+function notify(type) {
+  socket.emit('action', {action: type});
+}
